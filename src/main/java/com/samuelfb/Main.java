@@ -14,7 +14,7 @@ public class Main {
         String msg = sc.nextLine();
         System.out.println("Initial message: " + msg+ "\n");
 
-        //TODO: Morse to eng does not work propelly.
+        //TODO: Morse to eng does not work properly. Ex. *-**-*
         //TODO: "----- " ? Not all the morse codes have *
         if (msg.contains("*")){
             ToEng(msg);

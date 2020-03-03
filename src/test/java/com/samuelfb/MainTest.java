@@ -13,12 +13,12 @@ public class MainTest {
 //    }
 
     @Test
-    public void ToEngTest(){
+    public void toEngTest(){
 
     }
 
     @Test
-    public void ToMorseTest(){
+    public void toMorseTest(){
 
     }
 
