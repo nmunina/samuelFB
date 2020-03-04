@@ -1,9 +1,9 @@
-package com.samuelfb;
+package solution;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MainTest {
+public class SolutionTest {
 
 //    @Test
 //    public void readFromConsole() {
@@ -11,16 +11,6 @@ public class MainTest {
 //        String expected = "A";
 //        Assert.assertEquals(expected, result);
 //    }
-
-    @Test
-    public void toEngTest(){
-
-    }
-
-    @Test
-    public void toMorseTest(){
-
-    }
 
 
 

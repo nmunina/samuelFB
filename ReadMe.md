@@ -8,6 +8,7 @@
 ## Uppgift
  
 * [x] find a name for your group and name the project to that name (samuelFB)
-* [] a program that converts Morse code into English
+* [x] a program that converts Morse code into English
 * [x] a program that converts English intoMorse code 
 * [] create at least three error handling in the system
+* [] check JUnit test cases
