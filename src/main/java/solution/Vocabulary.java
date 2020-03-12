@@ -55,7 +55,7 @@ public class Vocabulary {
         vocabularyEngMorse.put('.', "*-*-*-");
         vocabularyEngMorse.put(',', "--**--");
         vocabularyEngMorse.put('?', "**--**");
-        
+
         //Reversing keys and values of English-Morse dictionary, to get Morse-English dictionary
         vocabularyMorseEng = new HashMap<String, Character>();
         for (char i : vocabularyEngMorse.keySet()) {
