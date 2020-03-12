@@ -18,4 +18,4 @@
 
 Priyanka - exceptions and possible errors handling
 
-Johan - JUnit tests
+@johanmartin7811 - JUnit tests
