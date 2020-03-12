@@ -1,6 +1,8 @@
 package solution;
 
 import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class SolutionTest {
@@ -11,7 +13,9 @@ public class SolutionTest {
 //        String expected = "A";
 //        Assert.assertEquals(expected, result);
 //    }
-
-
+    @Before
+    public void setUp() {
+        Vocabulary.initializeVocabulary();
+    }
 
 }

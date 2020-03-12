@@ -3,14 +3,10 @@ package solution;
 import java.util.HashMap;
 
 public class Vocabulary {
-   // HashMap<Character, String>  morseToEnglish = immutable Map.of();
     public static HashMap<Character, String> vocabularyEngMorse;
     public static HashMap<String, Character> vocabularyMorseEng;
 
     public static void initializeVocabulary() {
-
-        // TODO: read about immutable map Map.of('a',"*-")
-        //'b',"-***")
         vocabularyEngMorse = new HashMap<Character, String>();
         vocabularyEngMorse.put(' ', " ");
         vocabularyEngMorse.put('a', "*-");
@@ -56,7 +52,10 @@ public class Vocabulary {
         vocabularyEngMorse.put('ñ', "--*--");
         vocabularyEngMorse.put('ö', "---*");
         vocabularyEngMorse.put('ü', "**--");
-
+        vocabularyEngMorse.put('.', "*-*-*-");
+        vocabularyEngMorse.put(',', "--**--");
+        vocabularyEngMorse.put('?', "**--**");
+        
         //Reversing keys and values of English-Morse dictionary, to get Morse-English dictionary
         vocabularyMorseEng = new HashMap<String, Character>();
         for (char i : vocabularyEngMorse.keySet()) {
