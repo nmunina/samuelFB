@@ -13,7 +13,7 @@ public class SolutionTest {
 
     @Test
     public void shouldTranslateMorseToEnglish() {
-        char result = Vocabulary.translateToEng(".-");
+        char result = Vocabulary.translateToEng("*-");
         String expected = "a";
         Assert.assertEquals(expected, Character.toString(result));
     }
@@ -21,14 +21,14 @@ public class SolutionTest {
     @Test
     public void shouldTranslateEnglishToMorse() {
         String result = Vocabulary.translateToMorse('a');
-        String expected = ".-";
+        String expected = "*-";
         Assert.assertEquals(expected, result);
     }
 
     @Test
     public void shouldNotTranslateEnglishToMorse() {
         String result = Vocabulary.translateToMorse('a');
-        String expected = ".--";
+        String expected = "*--";
         Assert.assertNotEquals(expected, result);
     }
 }
